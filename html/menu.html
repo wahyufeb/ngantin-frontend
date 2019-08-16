@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row" id="header-title">
+          <div class="col order-1">
+            <a href="home.html"
+              ><img
+                src="../icon/left.png"
+                alt="left-arrow"
+                width="20"
+                height="20"
+            /></a>
+          </div>
+          <div class="col order-6">
+            <div class="row">
+              <div class="col-sm-4 col-2">
+                <div class="circle text-center">
+                  <img src="../icon/shop.png" alt="Shop" width="30" />
+                </div>
+              </div>
+              <div class="col-sm-10 col-12 offset-sm-1 offset-3">
+                <div class="kantin-title text-center">
+                  <h6>Bu Naruto</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col order-12 text-right">
+            <img src="../icon/dotthree.png" alt="menu" height="20" />
+          </div>
+        </div>
+        <div class="row" id="kategori">
+          <div class="col-sm-2 col-4 text-center offset-2">
+            <h6
+              class="tablink active"
+              onclick="openPage('makanan', 'this', 'red')"
+              id="default"
+            >
+              MAKANAN
+            </h6>
+          </div>
+          <div class="col-sm-2 col-4 text-center">
+            <h6 class="tablink" onClick="openPage('minuman', 'this', 'salmon')">
+              MINUMAN
+            </h6>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="makanan" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-4 col-4 card-list">
+            <div class="daftar text-center">
+              <img src="../img/soto.jpg" alt="soto" />
+              <div class="caption-list text-left">
+                <h6>Soto</h6>
+                <p>Rp. 4.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-4 card-list">
+              <div class="daftar text-center">
+                <img src="../img/soto.jpg" alt="soto" />
+                <div class="caption-list text-left">
+                  <h6>Soto</h6>
+                  <p>Rp. 4.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-4 card-list">
+                <div class="daftar text-center">
+                  <img src="../img/soto.jpg" alt="soto" />
+                  <div class="caption-list text-left">
+                    <h6>Soto</h6>
+                    <p>Rp. 4.000</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div id="minuman" class="tabcontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi
+        quidem molestias vero. Maiores incidunt inventore quam enim laboriosam
+        voluptates nulla earum quis veniam! Corporis cum exercitationem quis
+        earum accusantium.
+      </div>
+    </main>
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $("link").text("ads");
+      const openPage = (pageName, element, color) => {
+        let i, tabcontent, tablink;
+        tabcontent = $(".tabcontent");
+        for (let i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        tablink = $(".tablink");
+        for (let i = 0; i < tablink.length; i++) {
+          tablink[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+      };
+      $("#default").click();
+      $(".tablink").on("click", function() {
+        $(".tablink").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+  </body>
+</html>

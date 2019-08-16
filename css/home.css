@@ -5,6 +5,7 @@
 
 body {
   font-family: "Ropa";
+  background-color: #f6f6f6;
 }
 
 .container {
@@ -21,6 +22,11 @@ a:focus {
   text-decoration: none;
   color: #757373;
   font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #757373;
 }
 
 header {

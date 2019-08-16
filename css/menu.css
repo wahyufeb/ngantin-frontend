@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Ropa";
+  src: url("../fonts/Ropa/RopaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli Reg";
+  src: url("../fonts/Muli/Muli-Regular.ttf");
+}
+@font-face {
+  font-family: "Muli Light";
+  src: url("../fonts/Muli/Muli-Light.ttf");
+}
+
+body {
+  background-color: #f6f6f6;
+}
+header {
+  background-color: #749bfa;
+  height: 103px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#header-title {
+  padding-top: 20px;
+  color: white;
+}
+
+header .circle {
+  background-color: #73ddff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  margin-left: -20px;
+}
+
+.kantin-title h6 {
+  margin-top: -25px;
+  font-family: "Ropa";
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* Kategori */
+#kategori {
+  margin-top: 20px;
+  color: #dcdcdc;
+}
+
+#kategori h6 {
+  font-weight: normal;
+  font-family: "Ropa";
+}
+
+#kategori h6:hover {
+  cursor: pointer;
+}
+
+.active {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+/* tab */
+.tabcontent {
+  background-color: #f6f6f6;
+  display: none;
+  padding: 20px 20px;
+  height: 400px;
+}
+
+#makanan {
+  background-color: #f6f6f6;
+}
+
+#makanan img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-list {
+  padding: 5px;
+}
+
+.daftar {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caption-list {
+  padding: 0 5px 2px 7px;
+}
+.daftar h6 {
+  font-weight: normal;
+  font-family: "Ropa";
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.daftar p {
+  font-weight: normal;
+  font-family: "Muli Reg";
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+#minuman {
+  background-color: #f6f6f6;
+}
