@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Ropa";
+  src: url("../fonts/Ropa/RopaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli Reg";
+  src: url("../fonts/Muli/Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli Light";
+  src: url("../fonts/Muli/Muli-Light.ttf");
+}
+
+body {
+  background-color: #fff;
+}
+
+.info{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.info p{
+	font-size: 8pt;
+}
+
+.info h4{
+	color: lightblue;
+}
+
+.grup{
+	margin-left: 10%;
+}
+
+.grup p{
+	font-size: 8pt;
+	margin-left: 30%;
+}
+
+.masuk{
+	width: 120%;
+}
+
+label{
+	font-size: 8pt;
+	color: lightblue;
+}
+
+input{
+	width: 120%;
+	background-color: #fff;
+	border:none;
+	border-bottom: 2px solid lightblue;
+}

@@ -7,17 +7,19 @@
   font-family: "Muli Reg";
   src: url("../fonts/Muli/Muli-Regular.ttf");
 }
+
 @font-face {
   font-family: "Muli Light";
   src: url("../fonts/Muli/Muli-Light.ttf");
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: white;
 }
+
 header {
   background-color: #749bfa;
-  height: 103px;
+  height: 65px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,14 +28,46 @@ header {
   color: white;
 }
 
-header .circle {
-  background-color: #73ddff;
-  width: 40px;
-  height: 40px;
+.circle img{
+  margin-top: 10%;
+  margin-left: 40%;
   border-radius: 50%;
-  line-height: 40px;
-  margin-left: -20px;
+  width: 40%;
 }
+
+.bio{
+  margin-top: 5%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.bio .syarat{
+  font-size: 10pt;
+  text-align: left;
+  margin-left:-35%;
+  margin-top: 10%;
+}
+
+.syarat2{
+  font-size: 8pt;
+  width: 80%;
+  margin-left: 10%;
+  background-color: rgba(209, 209, 209, 0.5);
+  padding: 3%;
+}
+
+.box{
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 8pt;
+  width: 100%;
+}
+
+.setuju{
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
 
 .kantin-title h6 {
   margin-top: -25px;
@@ -142,15 +176,6 @@ header .circle {
   border-radius: 90px 0 0 0;
   line-height: 70px;
   text-align: center;
-}
-
-.circle {
-  width: 50px;
-  height: 50px;
-  background-color: #f59e9e;
-  border-radius: 50%;
-  line-height: 50px;
-  position: relative;
 }
 
 .notif {
