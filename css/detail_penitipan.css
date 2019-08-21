@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Ropa";
+  src: url("../fonts/Ropa/RopaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli Reg";
+  src: url("../fonts/Muli/Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli Light";
+  src: url("../fonts/Muli/Muli-Light.ttf");
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #749bfa;
+  height: 65px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#header-title {
+  padding-top: 20px;
+  color: white;
+}
