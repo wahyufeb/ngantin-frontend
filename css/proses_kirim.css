@@ -7,19 +7,17 @@
   font-family: "Muli Reg";
   src: url("../fonts/Muli/Muli-Regular.ttf");
 }
-
 @font-face {
   font-family: "Muli Light";
   src: url("../fonts/Muli/Muli-Light.ttf");
 }
 
 body {
-  background-color: white;
+  background-color: #f6f6f6;
 }
-
 header {
   background-color: #749bfa;
-  height: 65px;
+  height: 103px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,49 +26,50 @@ header {
   color: white;
 }
 
-.bar{
-  margin-bottom: 10%;
-}
-
-.prog{
-  width: 80%;
-  margin-left: 10%;
-}
-
-.tot{
-  margin-right: 10%;
-  text-align: right;
-}
-
-.circle img{
+header .circle {
+  opacity: 0;
+  background-color: #007bff;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  width: 40%;
-  margin-left: 20%;
-  margin-top: 5%;
+  line-height: 40px;
+  margin-left: -20px;
 }
 
-.circle2 img{
-  border-radius: 50%;
-  width: 40%;
+.kantin-title h6 {
+  margin-top: -25px;
+  font-family: "Ropa";
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
-.penitip{
-  width: 80%;
-  background-color: rgba(205, 205, 205, 0.5);
+/* Kategori */
+#kategori {
+  margin-top: 20px;
+  color: #dcdcdc;
 }
 
-.bio{
-  margin-right: 15%;
-  margin-top: -22%;
+#kategori h6 {
+  font-weight: normal;
+  font-family: "Ropa";
 }
 
-button{ 
-  margin-left: 35%;
+#kategori h6:hover {
+  cursor: pointer;
 }
 
-.nitip{
-  border:5px solid black;
-  box-shadow: 10px 10px 10px solid black;
+.active {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+/* tab */
+.tabcontent {
+  background-color: #f6f6f6;
+  display: none;
+  padding: 20px 20px;
+  height: 400px;
 }
 
 .siswa  {
@@ -80,7 +79,6 @@ button{
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   padding-left: 15%;
-
 }
 
 .siswa img {
@@ -94,8 +92,7 @@ button{
   color: black;
 }
 .ctg{
-  background-color: lightblue;
+  background-color: #749bfa;
   padding-left: 3%;
-  margin-left: -6%;
   border-radius: 0 10% 10% 0;
 }
