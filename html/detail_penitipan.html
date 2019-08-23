@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Titip</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/pick_penitip.css" />
+    <link rel="stylesheet" href="../css/detail_penitipan.css" />
   </head>
   <body>
     <header>
@@ -15,11 +15,11 @@
           <div class="col order-1">
             <a href="home.html"
               ><img
-                src="../icon/left.png"
+                src="../icon/bluerow.png"
                 alt="left-arrow"
                 width="20"
                 height="20"
-                color="blue"
+                color="r"
             /></a>
           </div>
           <div class="col order-12 text-right">
@@ -29,7 +29,101 @@
       </div>
     </header>
     <main>
+      <div class="container">
+        <div class="row">
+        <div class="siswa">
+          <a href="#">
+            <div class="row">
+              <div class="col-sm-2 col-2 poto"  data-toggle="modal" data-target="#mediumModal">
+                <img src="../icon/tukang.jpg" alt="package" width="60px" />
+              </div>
+              <div class="col-sm-7 col-7 offset-sm-1 offset-1 nama"  data-toggle="modal" data-target="#mediumModal">
+                <p>
+                  Alex <br> Kelas : XII RPL 1 <br>
+                </p>
+              </div>
+              <div class="col-sm-2 col-2 ctg">                   
+                <i class=""></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        </div>
 
+        <div class="row">
+        <div class="siswa">
+          <a href="#">
+            <div class="row">
+              <div class="col-sm-2 col-2 poto"  data-toggle="modal" data-target="#mediumModal">
+                <img src="../icon/titip.png" alt="package" width="60px" />
+              </div>
+              <div class="col-sm-7 col-7 offset-sm-1 offset-1 nama"  data-toggle="modal" data-target="#mediumModal">
+                <p>
+                  Alex <br> Kelas : XII RPL 1 <br>
+                </p>
+              </div>
+              <div class="col-sm-2 col-2 ctg">                   
+                <i class=""></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="siswa">
+          <a href="#">
+            <div class="row">
+              <div class="col-sm-2 col-2 poto"  data-toggle="modal" data-target="#mediumModal">
+                <img src="../icon/tukang.jpg" alt="package" width="60px" />
+              </div>
+              <div class="col-sm-7 col-7 offset-sm-1 offset-1 nama"  data-toggle="modal" data-target="#mediumModal">
+                <p>
+                  Alex <br> Kelas : XII RPL 1 <br>
+                </p>
+              </div>
+              <div class="col-sm-2 col-2 ctg">                   
+                <i class=""></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="total">
+          <h6>Total : Rp.16.000</h6> <br> 
+          <p>Jumlah barang : 5</p>
+        </div>
+
+        <div class="des">
+          <p>Silahkan untuk membeli pesanan yang ada diatas, klik detail untuk melihat daftar pesanan yang harus dibeli, jika semua pesanan sudah terpenuhi, silahkan klik tombol “Pesanan Siap”, untuk menginformasikan kepada penitip bahwa pesanan dalam masa pengiriman</p>
+        </div>
+        <a href="selesai_penitipan.html">
+          <button class="btn btn-success">PESANAN SIAP</button>
+        </a>
+      </div>
+
+          <!-- modal medium -->
+            <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mediumModalLabel">Detail Pesanan</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end modal medium -->
     </main>
     <div class="black"></div>
     <script src="../js/jquery.js"></script>
